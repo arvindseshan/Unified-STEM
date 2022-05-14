@@ -1,0 +1,27 @@
+<!-- Header -->
+	<div id="header-wrapper">
+		<div id="header">
+
+			<!-- Logo -->
+				<h1><a href="{{ site.baseurl }}/index.html">Unified STEM in Western Pennsylvania</a></h1>
+
+			<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						{% assign current = page.url | downcase | split: '/' %}
+						{% assign test = current[1] | append: "t" %}
+
+						<li {% if test == "t" %}class='current'{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li>
+						<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="{{ site.baseurl }}/blog">Blog</a></li>
+						<li {% if current[1] == 'unifiedrobotics' %}class='current'{% endif %}><a href="{{ site.baseurl }}/unifiedrobotics.html">Unified Robotics</a></li>
+						<li {% if current[1] contains "unifiedhackathon" %}class='current'{% endif %}><a href="{{ site.baseurl }}/unifiedhackathon.html">Unified Hackathon</a>
+
+						</li>
+						<li {% if current[1] == 'about.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/about.html">About</a></li>
+					</ul>
+				</nav>
+
+				<!-- <div class="header-img">
+					<img src="{{ site.baseurl }}/assets/images/pic11.jpg">
+				</div> -->
+</div>
