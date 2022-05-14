@@ -738,6 +738,7 @@
 	{
 		position: relative;
 		/* background: #f7f7f7 url('images/bg02.png'); */
+		background: #f7f7f7
 	}
 
 		#main-wrapper:before
@@ -760,6 +761,7 @@
 			#main-wrapper .major h2
 			{
 				/* background: #f7f7f7 url('images/bg02.png'); */
+				background: #f7f7f7
 			}
 
 	#footer-wrapper
