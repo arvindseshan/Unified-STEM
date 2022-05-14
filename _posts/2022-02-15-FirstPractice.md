@@ -1,5 +1,5 @@
 ---
-title: Tips For the First Unified Robtoics Practice
+title: Tips For the First Unified Robotics Practice
 featured:
 layout: post
 ---
